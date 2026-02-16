@@ -1,0 +1,960 @@
+
+/* Slick Slider Css */
+.single-slick.style-six {
+    min-height: 800px !important;
+}
+.single-slick.style-six .hero-text-wrap h1 {
+    font-size: 60px;
+    color: #0a0a1d;
+    font-weight: 600 ;
+}
+.single-slick.style-six .hero-text-wrap h4 {
+    font-size: 20px;
+    color: #ff3c00;
+    margin: 0 0 0px;
+}
+.single-slick.style-six .hero-text-wrap p {
+    font-size: 16px;
+    color: #686868;
+    margin-top: 20px;
+    padding-bottom: 18px;
+    width: 86%;
+}
+.dreamit-slick-slider .single-slick.style-six .slider-single-image img {
+    filter: none;
+}
+.single-slick.style-six .it-shape1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+    margin: auto;
+}
+
+.dreamit-slick-slider .single-slick.style-six .slider-single-image {
+    margin-top: 116px;
+}
+.dreamit-slick-slider .single-slick.style-six .hero-text-wrap .btn i {
+    font-size: 16px;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    background: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 8px;
+}
+.dreamit-slick-slider .single-slick.style-six .hero-text-wrap .btn {
+    padding: 14px 30px 14px 30px;
+    font-size: 17px;
+    font-family: 'Rubik';
+}
+.dreamit-slick-slider .single-slick.style-six .hero-text-wrap .btn:hover i{
+    color:#FF3B00;
+}
+/* Style Seven */
+.dreamit-slick-slider .style-seven .hero-text-wrap {
+    width: 100%;
+    text-align: center;
+}
+.dreamit-slick-slider .style-seven .hero-text-wrap h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+.style-seven .it-shape2 {
+    position: absolute;
+    left: 120px;
+    bottom: 115px;
+}
+.style-seven .it-shape3 {
+    position: absolute;
+    right: 160px;
+    bottom: 160px;
+}
+.style-seven .it-shape4 {
+    position: absolute;
+    right: 108px;
+    bottom: 100px;
+}
+.style-seven .hero-text h4 {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 0;
+}
+.dreamit-slick-slider .style-seven .hero-text-wrap h4:before {
+    left: -90px;
+    top: 10px;
+    width: 74px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/section-sub-shape1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.dreamit-slick-slider .style-seven .hero-text-wrap h4:after {
+    position: absolute;
+    content: "";
+    right: -90px;
+    top: 10px;
+    width: 74px;
+    height: 2px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/section-sub-shape2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.dreamit-slick-slider .style-seven .text-center .hero-text-wrap p {
+    margin: 10px auto 45px;
+}
+.style-seven .hero-text-wrap a.slider-button {
+    background: #FF3C00;
+    display: inline-block;
+    padding: 14px 35px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #FF3C00;
+    position: relative;
+    transition: .5s;
+    margin: 0 7px;
+    -webkit-animation: 1s 2s fadeInUp both;
+    animation: 1s 2s fadeInUp both;
+}
+.style-seven .hero-text-wrap a.slider-button.two {
+    background: transparent;
+    transition:.5s;
+}
+.style-seven .hero-text-wrap a.slider-button.two:hover {
+    background: #FF3C00;
+}
+.style-seven .hero-text-wrap a.slider-button:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 5px;
+    height: 100%;
+    width: 39%;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/button-border.png);
+    background-repeat: no-repeat;
+}
+.style-seven .hero-text-wrap a i {
+    margin-left: 5px;
+    font-weight: 600;
+}
+.style-seven .hero-text-wrap a:hover{
+    background:transparent;
+}
+/* Word Process */
+.work_progress.style4 {
+    background: #fff;
+    padding: 45px 20px 15px;
+    position:relative;
+    z-index:1;
+}
+.work_progress.style4::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/it-pr.png);
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work_progress.style4:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.work_progress.style4 .icon i {
+    color: #ff3c00;
+    font-size: 38px;
+    transition:.5s;
+}
+.work_progress.style4 .work_progress-title {
+    padding-top: 10px;
+}
+.work_progress.style4 .work_progress-title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    transition:.5s;
+}
+
+.work_progress.style4 .work_progress-desc {
+    padding-top: 14px;
+}
+.work_progress.style4 .work_progress-desc p{
+    transition:.5s;
+}
+.work_progress.style4 .work_progress_icon {
+    position: relative;
+}
+.work_progress.style4 .work_progress-number {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -55px;
+    opacity: 0;
+    transition:.5s;
+}
+.work_progress.style4 .work_progress-number span::before {
+    display:none;
+}
+.work_progress.style4 .work_progress-number span::after {
+    display:none;
+}
+.work_progress.style4 .work_progress-number span {
+    background: #ff3c00;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-size: 22px;
+}
+.work_progress.style4:hover .work_progress-title h2 {
+    color: #FF3C00;
+}
+.work_progress.style4:hover .work_progress-desc p{
+    color:#fff;
+}
+.work_progress.style4:hover .icon i {
+    color: #fff;
+}
+.work_progress.style4:hover .work_progress-number {
+    bottom: -35px;
+    opacity: 1;
+}
+/* List Style Css */
+div#itsolution-list-style ul li {
+    position: relative;
+    padding-left: 55px;
+}
+div#itsolution-list-style ul li:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 12px;
+    height: 2px;
+    width: 40px;
+    background: #f00;
+}
+.dreamit-button.style8 .button {
+    padding: 14px 30px 14px 30px;
+    font-size: 17px;
+    font-family: 'Rubik';
+}
+.dreamit-button.style8 .button i {
+    font-size: 16px;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    background: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 8px;
+}
+.dreamit-button.style8 .button:hover i{
+    color:#FF3B00;
+}
+/* Service Style */
+.service_box.style9 {
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/itservice-bg.jpg);
+    text-align: center;
+    padding: 52px 30px 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+.service_box.style9::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/it-pr.png);
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.service_box.style9 .service-icon i {
+    color: #ff3c00;
+    font-size: 38px;
+    transition: .5s;
+}
+.service_box.style9 .service_content .title {
+    font-size: 22px;
+    font-weight: 600;
+    transition: .5s;
+    padding: 34px 0 17px;
+}
+.service_box.style9:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.service_box.style9:hover .service-icon i{
+    color:#fff;
+}
+.service_box.style9:hover .service_content .title{
+    color:#ff3c00;
+}
+.service_box.style9:hover p.description{
+    color:#fff;
+}
+.service_box.style9 .service_btn {
+    padding-top: 16px;
+}
+.service_box.style9 .service_btn a {
+    display: inline-block;
+    padding: 14px 30px;
+    border: 1px solid #000;
+    font-size: 17px;
+    color: #0a0a1d;
+    border-radius: 30px;
+    font-weight: 500;
+}
+.service_box.style9:hover .service_btn a {
+    background:#ff3c00;
+    border-color:#ff3c00;
+    color:#fff;
+}
+.service_box.style9 .service_btn a i {
+    margin-left: 6px;
+    transition: .2s;
+}
+
+.service_box.style13 {
+    background: #fff;
+    padding: 44px 25px 30px;
+    position: relative;
+    z-index: 1;
+}
+.service_box.style13::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/servicebgt.jpg);
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.service_box.style13:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.service_box.style13 .content h3 {
+    font-size: 20px;
+    padding: 20px 0 15px;
+    font-weight: 600;
+}
+.service_box.style13 .icon {
+    position: relative;
+    z-index:1;
+}
+.service_box.style13 .icon:before {
+    position: absolute;
+    content: "";
+    left: 15px;
+    top: -20px;
+    height: 40px;
+    width: 40px;
+    background: #f7f7f7;
+    z-index: -1;
+    border-radius: 50%;
+    transition:.5s;
+}
+.service_box.style13 .icon i {
+    font-size: 38px;
+    color: #FF3C00;
+    transition: .5s;
+}
+.service_box.style13 .service-btn a {
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background: inherit;
+    color: #0a0a1d;
+    border: inherit;
+    font-weight: 500;
+    margin-top:0;
+}
+.service_box.style13 .service-btn a i {
+    font-size: 15px;
+    color: #0a0a1d;
+    font-weight: 600;
+}
+.service_box.style13:hover .icon i,
+.service_box.style13:hover .content h3,
+.service_box.style13:hover .content p,
+.service_box.style13:hover .service-btn a,
+.service_box.style13:hover .service-btn a i{
+    color:#fff;
+}
+.service_box.style13:hover .icon:before{
+    background:#ff3c00;
+}
+/* Case Study */
+.case-study.style6 .single_case_study{
+    position:relative;
+}
+.case-study.style6 .cases_study_content {
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/case-bg.jpg);
+    padding: 26px 35px 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    transition:.5s;
+    opacity:0;
+}
+.case-study.style6 .single_case_study:hover .cases_study_content{
+   bottom:3px;
+   opacity:1;
+}
+.case-study.style6 .case-study-thumb:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    transition:.5s;
+    background: linear-gradient(0deg, rgba(255, 59, 0, 0.902) 0%,     rgba(255, 59, 0, 0.902) 24%, rgba(255, 59, 0, 0) 62%, rgba(255, 59, 0, 0) 100%);
+}
+.case-study.style6 .single_case_study:hover .case-study-thumb:before{
+    opacity:1;
+}
+.case-study.style6 h2.title {
+    font-size: 20px;
+}
+.case-study.style6 .cases_study_content h2 a {
+    color: #fff;
+}
+.case-study.style6 .case_category span {
+    color: #fff;
+    padding-left: 50px;
+    margin-top: 15px;
+    display: block;
+    position: relative;
+}
+.case-study.style6 .case_category span:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 13px;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+}
+
+.case-study.style6.style7 .cases_study_content {
+    background: rgba(10,10,29, 0.8);
+    padding: 12px 30px 24px;
+    bottom: 7px;
+    opacity: 1;
+    width: 95%;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+.case-study.style7 .case_button a {
+    font-size: 15px;
+    color: #fff;
+}
+.case-study.style7 .case_button a i {
+    margin-left: 5px;
+}
+.case-study.style7 .case_button {
+    margin-top: 10px;
+}
+.case-study.style6.style7 .case-study-thumb:before {
+    opacity: 1;
+}
+.case-study.style6.style7 .single_case_study:hover .case-study-thumb:before {
+    opacity: 0;
+}
+.case-study.style6.style7 .single_case_study:hover .cases_study_content {
+    bottom: 7px;
+    opacity: 1;
+    background:#FF3C00;
+}
+.case-study.style6.style7 .case_category span {
+    padding-left: 0;
+    text-transform: uppercase;
+}
+.case-study.style6.style7 .case_category span:before {
+    display:none;
+}
+.my-accordion.style-two.three a.active {
+    color: #fff !important;
+    border-radius: 5px 5px 0 0;
+}
+.my-accordion.style-two.three li p {
+    padding: 25px 30px 25px 30px;
+    background: #f7f7f7;
+    color: #686868;
+    font-size: 17px;
+    border-radius:0 0 5px 5px;
+}
+.my-accordion.style-two.three li a {
+    padding: 14px 20px 14px 30px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #0a0a1d !important;
+    outline: 0;
+    border: none;
+}
+.my-accordion.style-two.three a:after {
+    width: 14px;
+    right: 26px;
+    top: 26px;
+}
+.my-accordion.style-two.three a:before {
+    height: 14px;
+    top:20px;
+}
+
+/* Team Member CSS */
+.team.style3 {
+    position: relative;
+}
+.team.style3 .image {
+    position: relative;
+}
+.team.style3 .image:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background: linear-gradient(0deg, rgba(255, 59, 0, 0.802) 0%,     rgba(255, 59, 0, 0.802) 10%, rgba(255, 59, 0, 0) 60%, rgba(255, 59, 0, 0) 40%);
+}
+.team.style3:hover .image:before{
+    opacity:1;
+}
+.team.style3 .single-team-share-icon {
+    position: relative;
+    display: block;
+}
+.team.style3 .single-team-share-icon span {
+    display: block;
+    position: absolute;
+    top: -26px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 3;
+    background: #ff3c00;
+    color: #fff;
+}
+.team.style3 ul.social-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 130px;
+    transition:.5s;
+    opacity:0;
+}
+.team.style3 ul.social-icon li {
+    list-style: none;
+}
+.team.style3 ul.social-icon li a {
+    height: 30px;
+    width: 30px;
+    background: #0a0a1d;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    color: #fff;
+    margin-top: 7px;
+    font-size: 14px;
+}
+.team.style3 .team-content {
+    background: #fff;
+    padding: 20px 28px 30px;
+    position: relative;
+    margin-top: -7px;
+    border-bottom: 3px solid #ff3c00;
+    transition:.5s;
+}
+.team.style3 .team-content:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/shap-2.png);
+    transition:.5s;
+}
+.team.style3:hover .team-content{
+    background:#0A0A1D;
+}
+.team.style3:hover .team-content h2{
+    color:#fff;
+}
+.team.style3:hover h5.designation{
+    color:#fff;
+}
+.team.style3:hover .team-content:before{
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/shap-1.png);
+}
+.team.style3 .team-content h2 {
+    font-size: 20px;
+    transition:.5s;
+}
+.team.style3 h5.designation {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.team.style3:hover ul.social-icon {
+    bottom: 138px;
+    opacity: 1;
+}
+.team.style3 .image img {
+    width: 100%;
+}
+.case-study.style6 .owl-theme .owl-dots .owl-dot span {
+    display: none !important;
+}
+
+.team.style4 .team-content {
+    background: #0a0a1d;
+    padding: 18px 20px 25px;
+    text-align: center;
+    border-bottom: 3px solid #FF3C00;
+    position: relative;
+    margin-bottom: -3px;
+    z-index: 1;
+}
+.team.style4 .team-content:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/shap-1.png);
+    transition: .5s;
+}
+.team.style4 .team-content:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background: #ff3c00;
+    transition: .5s;
+    z-index: -1;
+}
+.team.style4:hover .team-content:after{
+    width:100%;
+}
+.team.style4 .team-content h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.team.style4 .team-content h5 {
+    font-size: 16px;
+    color: #FFFFFF99;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.team.style4 .image{
+    position: relative;
+}
+.team.style4 .image:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -7px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    background: linear-gradient(0deg, rgba(255, 59, 0, 0.802) 0%,     rgba(255, 59, 0, 0.802) 10%, rgba(255, 59, 0, 0) 60%, rgba(255, 59, 0, 0) 40%);
+}
+.team.style4:hover .image:before{
+    opacity:1;
+}
+.team.style4 ul.social-icon {
+    background: #0a0a1d;
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+}
+.team.style4 .social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+.team.style4 .social-icon li a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #282848;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 3px;
+    transition:.5s;
+}
+.team.style4 .social-icon li a:hover{
+    background:#FF3C00;
+}
+/* Section Title Css */
+.section-title.style6 .title {
+    font-size: 44px;
+    font-weight: 600;
+}
+.section-title.style6  h5.subtitle {
+    font-size: 17px;
+    position: relative;
+    padding-left: 85px;
+}
+.section-title.style6  h5.subtitle:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 10px;
+    width: 78px;
+    height: 2px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/section-sub-shape1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.section-title.style6 .description {
+    padding-top: 16px;
+    font-size:17px;
+    font-weight:400;
+}
+
+div#section-center-mdn .section-title.style6  h5.subtitle {
+    padding-left: 0;
+}
+div#section-center-mdn .section-title.style6  h5.subtitle:before {
+    left: -90px;
+}
+div#section-center-mdn .section-title.style6  h5.subtitle:after {
+    position: absolute;
+    content: "";
+    right: -90px;
+    top: 10px;
+    width: 78px;
+    height: 2px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/section-sub-shape2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.dreamit-button.style11 a.ith-button {
+    background: #FF3C00;
+    display: inline-block;
+    padding: 14px 35px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #FF3C00;
+    position: relative;
+    transition: .5s;
+    margin: 0 7px;
+}
+.dreamit-button.style11 a.ith-button:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 5px;
+    height: 100%;
+    width: 33%;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/button-border.png);
+    background-repeat: no-repeat;
+}
+.dreamit-button.style11 a.ith-button:hover{
+    background:#0A0A1D;
+    border-color:#0A0A1D;
+}
+div#it-shape-border .icon-box-content h4 {
+    position: relative;
+}
+div#it-shape-border .icon-box-content h4:before {
+    position: absolute;
+    content: "";
+    left: -45px;
+    top: 10px;
+    height: 2px;
+    width: 36px;
+    background: #f00;
+}
+
+ul.my-accordion.style-two.three.four li a {
+    padding: 13px 20px 13px 27px;
+    background-color: transparent;
+    border-radius: 0;
+    color: #fff !important;
+    border: 2px solid #3d3d52;
+}
+ul.my-accordion.style-two.three.four li p {
+    background: rgba(22,22,41, 0.6);
+    color: #FFFFFF99;
+}
+ul.my-accordion.four li:before {
+    background-color: inherit;
+    border: inherit;
+}
+.border-right-cnt-line {
+    position: relative;
+}
+.border-right-cnt-line:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 30px;
+    height: 98px;
+    width: 2px;
+    background: #f5eaea;
+}
+
+.border-right-cnt-line::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 7px;
+    width: 7px;
+    top: 30px;
+    border-radius: 50%;
+    right: -3px;
+    background-color: #fff;
+    -webkit-animation: moveLeftBounces-one 10s linear infinite;
+    animation: moveLeftBounces-one 10s linear infinite;
+    overflow: hidden;
+}
+.border-right-cnt-line:nth-child(1)::after {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+
+@-webkit-keyframes moveLeftBounces-one {
+0% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+50% {
+-webkit-transform: translateY(90px);
+transform: translateY(90px);
+}
+100% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+}
+
+@keyframes moveLeftBounces-one {
+0% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+50% {
+-webkit-transform: translateY(90px);
+transform: translateY(90px);
+}
+100% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+}
+/* Testimonial Style Seven */
+.testimonial.style7 .testimonial-item {
+    background: #fff;
+    padding: 0;
+    margin-left: 55px;
+}
+.testimonial.style7 .author_thumb {
+    float: left;
+    margin-right: 28px;
+    position: relative;
+    margin-left: -52px;
+}
+.testimonial.style7 .bio {
+    padding-top: 20px;
+}
+.testimonial.style7 .bio h4 {
+    font-size: 22px;
+}
+.testimonial.style7 .bio h5 {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 6px;
+    color:#FF3C00;
+    margin-left: 138px;
+}
+.testimonial.style7 .bio h5:before {
+    position: absolute;
+    content: "";
+    left: -46px;
+    right: 0;
+    top: 10px;
+    height: 2px;
+    width: 35px;
+    background: #FF3C00;
+}
+.testimonial.style7 .reviews_rating {
+    position: absolute;
+    right: 42px;
+    top: 32px;
+}
+.testimonial.style7 .reviews_rating i {
+    color: #FF3C00;
+    margin-left: 4px;
+}
+.testimonial.style7  .testimonial-content {
+    padding: 55px 35px 20px;
+}
+.testimonial.style7 .testimonial-content:before {
+    position: absolute;
+    content: "";
+    right: 130px;
+    top: -10px;
+    height: 45px;
+    width: 60px;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/testi-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

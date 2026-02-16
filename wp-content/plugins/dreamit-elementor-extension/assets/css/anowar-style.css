@@ -1,0 +1,137 @@
+.service_box.style8 {
+    background: #fff;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.service_box.style8 .service_content .title {
+    color: #232323;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+    display: block;
+}
+.service_box.style8 .service-icon {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    display: inline-block;
+    background: #fff5f2;
+    border-radius: 100%;
+    position:relative;
+    z-index:99;
+}
+.service_box.style8 .service-icon:after {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    border: 1px dashed #f00;
+    border-radius: 100%;
+    content: "";
+    transition:.5s;
+}
+.service_box.style8:hover .service-icon:after {
+    left: 0;
+    top: 0;
+}
+.service_box.style8 .service-icon i{
+    font-size:40px;
+    color:#FF3C00;
+}
+
+.service_box.style8 .service_btn a {
+    border: 1px solid #FF3B00;
+    border-radius: 30px;
+    padding: 8px 25px;
+    color: #FF3B00;
+    margin-top: 15px;
+    display: inline-block;
+    transition:.5s;
+}
+.service_box.style8:hover .service_btn a{
+    background:#FF3B00;
+    border-color:#FF3B00;
+    color:#fff;
+}
+
+/* Case Study Style Five */
+.case-study.style3.style5 .cases-study-content {
+    position: absolute;
+    left: 0;
+    bottom: -190px;
+    right: 0;
+    text-align: left;
+    background: #fff;
+    margin: auto;
+    padding: 14px 59px 19px;
+    width: 92%;
+    border-radius: 100px;
+    transition: .5s;
+    transition: all 400ms linear;
+    text-align: center;
+}
+.case-study.style3.style5 .cases-study-content .title a {
+    color: #232323;
+}
+.case-study.style3.style5 .cases-study-content .title a:hover {
+    color: #FF3C00;
+}
+.case-study.style3.style5 .case_category span {
+    color: #ED2C41;
+}
+
+/* Blog Style */
+.blog_style_two.style5 .blog-page-title_adn h2 a {
+    display: inline-block;
+    font-weight: 700;
+    color: #232323;
+}
+ .blog-page-title_adn h2 a:hover{
+     color:#FF3C00;
+ }
+
+.blog_style_two.style5 .luxury-blog-thumb_adn {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 10px;
+}
+.blog_style_two.style5 .em-blog-content-area_adn {
+    border: 0 ;
+    padding: 22px 15px 14px;
+}
+.blog_style_two.style5 .luxury-single-blog_adn {
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    /* overflow: hidden; */
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.blog_style_two.style5 .luxury-single-blog_adn:hover .em-blog-content-area_adn {
+    filter: inherit;
+    border: inherit;
+}
+.blog_style_two.style5 ul.post-categories {
+    display: inline-block;
+    position: absolute;
+    bottom: 26px;
+    left: inherit;
+    right: 25px;
+}
+.luxury-blog-readmore a i{
+    margin-left:5px;
+}
+.style5 .brand-item {
+    margin: 0 5px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    display: none;
+}

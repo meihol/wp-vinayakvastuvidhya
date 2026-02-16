@@ -1,0 +1,562 @@
+
+/*
+================================
+
+    Author  : Ahiduzzaman
+    
+    Version : 1.0.0
+    
+================================
+*/
+
+
+/*
+================================
+        feature box css
+================================
+*/
+
+.feature-box.style-four {
+    text-align: center;
+    padding: 42px 0 16px 0;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+.feature-box.style-four .feature-box-title h2 {
+    font-size: 20px;
+    line-height: 33px;
+    color: #232323;
+    font-weight: bold;
+    font-family: "Poppins";
+    text-align: center;
+    padding: 8px 0 8px 0;
+    transition:0.5s;
+}
+.feature-box.style-four .feature-box-content p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #646464;
+    font-weight: 400;
+    font-family: "Rubik";
+    text-align: center;
+    transition:0.5s;
+}
+.feature-box-thumb img {
+    transition:0.5s;
+}
+.feature-box.style-four:hover .feature-box-thumb img {
+    filter: brightness(0) invert(1);
+}
+.feature-box.style-four:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 81px;
+    height: 112px;
+    /* background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/feature-shape-img.png); */
+    background: #F6F7F9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+    right: 0;
+    transition: 0.5s;
+    border-radius: 0 0 42% 42%;
+}
+.feature-box.style-four:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/feature-box-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+    right: 0;
+    transition: 0.5s;
+}
+.feature-box.style-four:hover.feature-box.style-four .feature-box-title h2 {
+    color: #ffffff;
+}
+.feature-box.style-four:hover.feature-box.style-four .feature-box-content p {
+    color: #ffffff;
+}
+.feature-box.style-four:hover.feature-box.style-four:before {
+    height: 100%;
+}
+.feature-box.style-four:hover.feature-box.style-four:after {
+    /* opacity: 0; */
+    background: #441616;
+}
+
+/*
+================================
+        section title css
+================================
+*/
+.section-title.style5 h5 {
+    font-size: 15px;
+    line-height: 28px;
+    color: #ff3c00;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0 0 15px 55px;
+}
+.section-title.style5 h3 {
+    margin: 0 0 28px 0;
+    line-height: 46px;
+}
+.section-title.style5 p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Rubik";
+    margin: 00 0 17px 0;
+}
+.section-title.style5 .subtitle:before {
+    position: absolute;
+    content: "";
+    top: 14px;
+    left: -53px;
+    height: 2px;
+    width: 41px;
+    background: #FF3C00;
+}
+.branding-title-style p.description {
+    padding: 26px 0 33px 0;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Rubik";
+    text-align: center;
+}
+/*
+================================
+        about area css
+================================
+*/
+.dreamit-button.style9 .button {
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.dreamit-button.style9 .button i {
+    font-size: 16px;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    background: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+/*
+================================
+        counter area css
+================================
+*/
+.single-counter.style_three {
+    margin: 0 0 30px 0;
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+.single-counter.style_three .icon {
+    margin-bottom: 0;
+}
+.single-counter.style_three .counter-content span {
+    font-size: 40px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 14px;
+    line-height: 28px;
+    color: #ff3c00;
+    font-family: "Poppins";
+    text-align: center;
+}
+.single-counter.style_three .counter-content h6 {
+    font-size: 17px;
+    line-height: 28px;
+    color: #555555;
+    font-weight: 500;
+    font-family: "Rubik";
+    text-align: center;
+}
+/*
+================================
+        service area css
+================================
+*/
+.branding-service-box i {
+    background: #f6f7f9;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 100%;
+}
+.service_box_icon i {
+    color: red;
+    font-size: 39px;
+    font-weight: 400;
+}
+
+/*
+================================
+        Testimonial area css
+================================
+*/
+.testimonial.style5 .testimonial-item {
+    transition: all .4s ease 0s;
+    position: relative;
+    text-align: left;
+    z-index: 1;
+    border-radius: 3px;
+    /* filter: drop-shadow(0px 12px 17px rgba(104,100,104,0.08)); */
+    box-shadow: 0px 0 10px 0 rgba(0, 0, 0, 0.07);
+    padding: 38px 40px 44px 40px;
+    margin: 10px 7px 30px 5px;
+}
+.testimonial.style5 .author {
+    display: inline-block;
+    margin-right: 20px;
+    float: left;
+}
+.testimonial.style5 .author img {
+    display: inline-block;
+}
+.testimonial.style5 .bio {
+    display: inline-block;
+}
+.testimonial.style5 .bio .name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+    font-family: "Poppins";
+    transition:0.5s;
+}
+.testimonial.style5 .bio .designation {
+    font-size: 16px;
+    margin: 0 0 0 0;
+    line-height: 28px;
+    color: #ff3c00;
+    font-weight: 400;
+    font-family: "Rubik";
+    transition:0.5s;
+}
+.testimonial.style5 .reviews_rating {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.testimonial.style5 .testi-star {
+    display: inline-block;
+}
+.testimonial.style5 .testi-star i {
+    color: #ff3c00;
+    font-size: 18px;
+    transition:0.5s;
+}
+.testimonial.style5 .testimonial-content .quote {
+    margin: 0 0 33px 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Rubik";
+    padding: 45px 0 0 0;
+    transition:0.5s;
+}
+.testimonial.style5 .testimonial-item:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 45px;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    z-index: -1;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/testi-world-map.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.testimonial.style5 .testimonial-item:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 3px;
+    background: url(https://wp.ditsolution.net/consen/wp-content/uploads/2023/05/box-bg4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.testimonial.style5 .testimonial-item:hover:after {
+    left: 0;
+    width: 100%;
+}
+.testimonial.style5 .owl-nav {
+    display: block;
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+.testimonial.style5 button.owl-prev {
+    background: #f5f7f9 !important;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    border-radius: 100%;
+    right: 70px;
+}
+.testimonial.style5 button.owl-next {
+    background: #f5f7f9 !important;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    border-radius: 100%;
+}
+button.owl-prev i {
+    color: #555555;
+    font-size: 16px;
+}
+button.owl-next i {
+    color: #555555;
+    font-size: 16px;
+}
+.testimonial.style5 button.owl-prev:hover {
+    background: #FF3B00 !important;
+}
+.testimonial.style5 button.owl-prev:hover i {
+    color: #ffffff;
+}
+.testimonial.style5 button.owl-next:hover {
+    background: #FF3B00 !important;
+}
+.testimonial.style5 button.owl-next:hover i {
+    color: #ffffff;
+}
+.testimonial-content {
+    position: relative;
+}
+.testimonial.style5 .testimonial-content:after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    right: 0;
+    height: 40px;
+    width: 34px;
+    transition: .5s;
+    z-index: 1;
+    background: url(https://wp.ditsolution.net/consen-multipurpose/wp-content/uploads/2023/06/testi-qu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.testimonial.style5 .testimonial-item:hover .testi-star i {
+    color: #ffffff;
+}
+.testimonial.style5 .testimonial-item:hover .testimonial-content .quote {
+    color: #ffffff;
+}
+.testimonial.style5 .testimonial-item:hover .bio .name {
+    color: #ffffff;
+}
+.testimonial.style5 .testimonial-item:hover .bio .designation {
+    color: #ffffff;
+}
+.testimonial.style5 .testimonial-item:hover .testimonial-content:after {
+    display:none;
+}
+
+.testimonial.style5 .testimonial-carousel.owl-carousel button.owl-dot {
+    position: relative;
+    z-index: 1;
+    height: 5px;
+    width: 20px;
+    margin: 0 6px;
+    display: inline-block;
+    background: #e1e1e1;
+}
+.testimonial.style5 .testimonial-carousel.owl-carousel button.owl-dot.active {
+    background: #ff3c00;
+    height: 13px;
+    width: 13px;
+}
+.testimonial.style5 .owl-dots {
+    text-align: center;
+}
+
+/*
+===========================================
+    brand area css
+==========================================
+*/
+.brand.style3 .brand-item img {
+    width: 60% !important;
+    margin: auto;
+}
+
+/*
+===========================================
+    branding agency footer area css
+==========================================
+*/
+.icon-box.style17 {
+    text-align: center;
+}
+.icon-box.style17 .icon-box-icon {
+    display: inline-block;
+    border: 2px dashed #ff3c00;
+    border-radius: 50%;
+    padding: 8px;
+}
+.icon-box.style17 .icon {
+    height: 92px;
+    width: 92px;
+    line-height: 98px;
+    background: #ff3c00;
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+}
+.icon-box.style17 .icon i {
+    font-size: 45px;
+    color: #fff;
+    transition: 0.5s;
+    animation: 1s ease-in-out 0s normal none infinite running kmacb-circle-img-anim;
+    display: inline-block;
+}
+
+/*
+===========================================
+    tab area css
+==========================================
+*/
+ul#tabs li {
+    list-style: none;
+    display: inline-block;
+}
+ul#tabs li a {
+    background: red;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 15px 17px;
+}
+ul#tabs li a h3 {
+    display:none;
+}
+ul#tabs li a p {
+    font-size: 16px;
+    /* line-height: 28px; */
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+    /* border-radius: 20px; */
+    padding: 0;
+    margin: 0;
+}
+ul#tabs li img {
+    display: none;
+}
+
+/*
+================================================================
+                   Branding Agency CSS End
+================================================================
+*/
+
+/*
+=========================================================================================================
+                                       IT Startup CSS Start
+=========================================================================================================
+*/
+
+
+/*
+===========================================
+    Service Box CSS Start
+==========================================
+*/
+
+.service-box.style16 {
+    margin: 0;
+    padding: 40px 25px 37px;
+    background-color: rgba(255,255,255,0.04);
+}
+.service-box.style16::before {
+    background: linear-gradient(-37deg, #45da65 7%,#0d6eff 100%);
+}
+.service-box.style16 .icon {
+    top: inherit;
+    margin-bottom: 30px;
+    border: 2px solid #45da64;
+    background: transparent;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+}
+.service-box.style16 .title {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #232323;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+.service-box.style16 .description {
+    color: #9ca2ab;
+    font-weight: 300;
+}
+.service-box.style16 .title:before {
+    position: absolute;
+    content: "";
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
