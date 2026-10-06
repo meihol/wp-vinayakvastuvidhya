@@ -95,7 +95,7 @@ define( 'DISALLOW_FILE_MODS', true );
 
 
 define( 'FS_METHOD', 'direct' );
-define( 'WP_AUTO_UPDATE_CORE', true );
+define( 'WP_AUTO_UPDATE_CORE', false );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
